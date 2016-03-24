@@ -1,6 +1,6 @@
 "use strict";
 
-const sidekickAnalyser = require("sidekick-analyser");
+const sidekickAnalyser = require("@sidekick/analyser-common");
 const stripJsonComments = require("strip-json-comments");
 
 const Checker = require("jscs");
