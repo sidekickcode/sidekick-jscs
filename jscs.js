@@ -5,7 +5,7 @@ const stripJsonComments = require("strip-json-comments");
 
 const Checker = require("jscs");
 
-const annotationDefaults = {analyserName: 'jscs'};
+const annotationDefaults = {analyserName: 'sidekick-jscs'};
 const configFileName = '.jscsrc';
 
 if(require.main === module) {
